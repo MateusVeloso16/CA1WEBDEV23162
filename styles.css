@@ -142,3 +142,39 @@ div.splash button{
     color: #fff;
     border: 0;
 }
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 46px;
+    padding: 70px 35px;
+    align-items: center;
+}
+
+section div.texts h1{
+    font-size: 3.125rem;
+    margin-bottom: 8px;
+}
+
+section div.texts p{
+    font-size: 1.625rem;
+}
+
+.media{
+    position: relative;
+}
+
+.media.s1 img{
+    width: 400px;
+}
+
+.media.s1 video{
+    width: 293px;
+    position: absolute;
+    top: 62px;
+    left: 52px;
+}
+
+section:nth-child(even) div.texts{
+    order: 2;
+}
