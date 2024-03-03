@@ -103,6 +103,7 @@ div.splash h3{
 }
 
 div.splash form{
+    position: relative;
     display: grid;
     margin-top: 20px;
     grid-template-columns: 1fr max-content;
@@ -110,4 +111,26 @@ div.splash form{
 
 div.splash input{
     padding: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+div.splash input ~ span{
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    z-index: 3;
+    color: #aaa;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+div.splash input:focus{
+    padding-top: 14px;
+    padding-bottom: 6px;
+}
+
+div.splash input:focus ~ span{
+    top: 2px;
+    font-size: .8rem;
 }
