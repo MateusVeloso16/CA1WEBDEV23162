@@ -35,10 +35,10 @@ header div+div {
 header a.button{
     display: inline-block;
     background-color: #e50914;
-    color: #fff
+    color: #fff;
     text-decoration: none;
     padding: 7px 17px;
-    border radius: 3px;
+    border-radius: 3px;
 }
 
 header select{
@@ -110,7 +110,7 @@ div.splash form{
 }
 
 div.splash input{
-    padding: 10px;
+    padding: 15px 10px;
     font-size: 1.2rem;
     width: 100%;
 }
@@ -118,19 +118,27 @@ div.splash input{
 div.splash input ~ span{
     position: absolute;
     left: 10px;
-    top: 14px;
+    top: 19px;
     z-index: 3;
     color: #aaa;
-    transition: all 0.3s ease;
+    transition: all 0.15s ease;
     pointer-events: none;
 }
 
 div.splash input:focus{
-    padding-top: 14px;
-    padding-bottom: 6px;
+    padding-top: 19px;
+    padding-bottom: 11px;
 }
 
 div.splash input:focus ~ span{
-    top: 2px;
+    top: 4px;
     font-size: .8rem;
+}
+
+div.splash button{
+    font-size: 1.625rem;
+    padding: 12px 26px;
+    background-color: #e50914;
+    color: #fff;
+    border: 0;
 }
