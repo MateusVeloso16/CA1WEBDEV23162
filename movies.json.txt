@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1,
+        "title": "Inception",
+        "description": "A thief who enters the dreams of others to steal their secrets from their subconscious.",
+        "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+        "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    },
+    {
+        "id": 2,
+        "title": "Interstellar",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "actors": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+        "trailer": "https://www.youtube.com/watch?v=2LqzF5WauAw"
+    },
+    {
+        "id": 3,
+        "title": "The Dark Knight",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+        "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+    },
+    {
+        "id": 4,
+        "title": "The Avengers",
+        "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+        "actors": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
+        "trailer": "https://www.youtube.com/watch?v=eOrNdBpGMv8"
+    },
+    {
+        "id": 5,
+        "title": "The Social Network",
+        "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.",
+        "actors": ["Jesse Eisenberg", "Andrew Garfield", "Justin Timberlake"],
+        "trailer": "https://www.youtube.com/watch?v=lB95KLmpLR4"
+    },
+    {
+        "id": 6,
+        "title": "Mad Max: Fury Road",
+        "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search of her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+        "actors": ["Tom Hardy", "Charlize Theron", "Nicholas Hoult"],
+        "trailer": "https://www.youtube.com/watch?v=hEJnMQG9ev8"
+    },
+    {
+        "id": 7,
+        "title": "Black Panther",
+        "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+        "actors": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o"],
+        "trailer": "https://www.youtube.com/watch?v=xjDjIWPwcPU"
+    },
+    {
+        "id": 8,
+        "title": "Gravity",
+        "description": "Two astronauts work together to survive after an accident leaves them stranded in space.",
+        "actors": ["Sandra Bullock", "George Clooney"],
+        "trailer": "https://www.youtube.com/watch?v=ufsrgE0BYf0"
+    },
+    {
+        "id": 9,
+        "title": "La La Land",
+        "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+        "actors": ["Ryan Gosling", "Emma Stone"],
+        "trailer": "https://www.youtube.com/watch?v=0pdqf4P9MB8"
+    },
+    {
+        "id": 10,
+        "title": "The Martian",
+        "description": "An astronaut becomes stranded on Mars after his team assume him dead and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+        "actors": ["Matt Damon", "Jessica Chastain", "Kristen Wiig"],
+        "trailer": "https://www.youtube.com/watch?v=ej3ioOneTy8"
+    },
+    {
+        "id": 11,
+        "title": "Django Unchained",
+        "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+        "actors": ["Jamie Foxx", "Christoph Waltz", "Leonardo DiCaprio"],
+        "trailer": "https://www.youtube.com/watch?v=eUdM9vrCbow"
+    },
+    {
+        "id": 12,
+        "title": "The Wolf of Wall Street",
+        "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption, and the federal government.",
+        "actors": ["Leonardo DiCaprio", "Jonah Hill", "Margot Robbie"],
+        "trailer": "https://www.youtube.com/watch?v=iszwuX1AK6A"
+    },
+    {
+        "id": 13,
+        "title": "Whiplash",
+        "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+        "actors": ["Miles Teller", "J.K. Simmons"],
+        "trailer": "https://www.youtube.com/watch?v=7d_jQycdQGo"
+    },
+    {
+        "id": 14,
+        "title": "Gone Girl",
+        "description": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+        "actors": ["Ben Affleck", "Rosamund Pike", "Neil Patrick Harris"],
+        "trailer": "https://www.youtube.com/watch?v=Ym3LB0lOJ0o"
+    },
+    {
+        "id": 15,
+        "title": "Guardians of the Galaxy",
+        "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
+        "actors": ["Chris Pratt", "Zoe Saldana", "Dave Bautista"],
+        "trailer": "https://www.youtube.com/watch?v=d96cjJhvlMA"
+    },
+    {
+        "id": 16,
+        "title": "Toy Story 3",
+        "description": "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
+        "actors": ["Tom Hanks", "Tim Allen", "Joan Cusack"],
+        "trailer": "https://www.youtube.com/watch?v=JcpWXaA2qeg"
+    },
+    {
+        "id": 17,
+        "title": "Avengers: Infinity War",
+        "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+        "actors": ["Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+        "trailer": "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
+    },
+    {
+        "id": 18,
+        "title": "Harry Potter and the Deathly Hallows - Part 2",
+        "description": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+        "actors": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint"],
+        "trailer": "https://www.youtube.com/watch?v=mObK5XD8udk"
+    },
+    {
+        "id": 19,
+        "title": "The Grand Budapest Hotel",
+        "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+        "actors": ["Ralph Fiennes", "F. Murray Abraham", "Mathieu Amalric"],
+        "trailer": "https://www.youtube.com/watch?v=1Fg5iWmQjwk"
+    },
+    {
+        "id": 20,
+        "title": "Joker",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime.",
+        "actors": ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz"],
+        "trailer": "https://www.youtube.com/watch?v=zAGVQLHvwOY"
+    },
+    {
+        "id": 21,
+        "title": "The Shape of Water",
+        "description": "At a top-secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.",
+        "actors": ["Sally Hawkins", "Octavia Spencer", "Michael Shannon"],
+        "trailer": "https://www.youtube.com/watch?v=XFYWazblaUA"
+    },
+    {
+        "id": 22,
+        "title": "Birdman",
+        "description": "A washed-up superhero actor attempts to revive his fading career by writing, directing, and starring in a Broadway production.",
+        "actors": ["Michael Keaton", "Zach Galifianakis", "Edward Norton"],
+        "trailer": "https://www.youtube.com/watch?v=8jAfBd3g6bA"
+    },
+    {
+        "id": 23,
+        "title": "Her",
+        "description": "In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
+        "actors": ["Joaquin Phoenix", "Scarlett Johansson", "Amy Adams"],
+        "trailer": "https://www.youtube.com/watch?v=WzV6mXIOVl4"
+    },
+    {
+        "id": 24,
+        "title": "Moonlight",
+        "description": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.",
+        "actors": ["Mahershala Ali", "Trevante Rhodes", "Ashton Sanders"],
+        "trailer": "https://www.youtube.com/watch?v=9NJj12tJzqc"
+    },
+    {
+        "id": 25,
+        "title": "The Revenant",
+        "description": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+        "actors": ["Leonardo DiCaprio", "Tom Hardy", "Domhnall Gleeson"],
+        "trailer": "https://www.youtube.com/watch?v=LoebZZ8K5N0"
+    }
+]
