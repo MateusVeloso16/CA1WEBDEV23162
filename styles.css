@@ -217,3 +217,12 @@ section div.download img{
     height: 75px;
     width: auto;
 }
+
+.movie-details {
+    text-align: center;
+    margin-bottom: 20px; /* Add some space between movie details and trailer */
+}
+
+#movie-trailer {
+    margin-top: 20px; /* Add some space above the trailer */
+}
