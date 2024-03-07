@@ -220,9 +220,33 @@ section div.download img{
 
 .movie-details {
     text-align: center;
-    margin-bottom: 20px; /* Add some space between movie details and trailer */
+    margin: 30px;
 }
 
 #movie-trailer {
-    margin-top: 20px; /* Add some space above the trailer */
+    margin: 20px;
+}
+
+#movie-title {
+    margin: 20px;
+}
+
+#movie-description {
+    margin: 20px;
+}
+
+.watch-button {
+    background-color: red;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.watch-button:hover {
+    background-color: darkred;
 }
