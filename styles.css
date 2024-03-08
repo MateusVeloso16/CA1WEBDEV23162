@@ -244,9 +244,33 @@ section div.download img{
     font-size: 16px;
     font-weight: bolder;
     cursor: pointer;
-    margin: 30px;
+    margin: 30px auto;
+    position: relative;
+    top: 45px;
 }
 
 .watch-button:hover {
     background-color: darkred;
 }
+
+
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 167px; 
+    height: 237px;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
