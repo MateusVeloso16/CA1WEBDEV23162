@@ -11,20 +11,25 @@
 <body>
     <header>
         <div>
-            <a href="/" class="logo">
+            <a href="index.html" class="logo">
                 <h1>OktMovies</h1>
             </a>
         </div>
-        
+        <div class="search-bar">
+            <input id="searchInput" type="text" placeholder="Search...">
+            <button id="searchButton" type="button">Search</button>
+        </div>
         <div class="select">
             <select>
                 <option value="">English</option>
                 <option value="">Italian</option>
             </select>
-
             <a class="button" href="/login">Sign in</a>
         </div>
     </header>
+
+    <div id="searchResultsContainer"></div>
+
     <div class="splash">
         <div class="background">
             <img src="https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg" alt="Free Cartoon Movie Showing on Theater Screen Stock Photo">
@@ -42,30 +47,30 @@
                     </div>
                     <div>
                         <button> Get Started &gt; </button>
-                    </div>   
+                    </div>
                 </form>
-            </div> 
+            </div>
         </div>
     </div>
-    
+
     <section class="image-container">
         <a href="Inception_movie_details.html">
-            <img src="Inception.jpg" width="167" height="237" alt="Inception">
+            <img src="Inception.jpg" width="167" height="237" alt="Inception Leonardo DiCaprio Joseph Gordon-Levitt Ellen Page">
         </a>
         <a href="Interstellar_movie_details.html">
-            <img src="Interstellar.jpg" width="167" height="237" alt="Interstellar">
+            <img src="Interstellar.jpg" width="167" height="237" alt="Interstellar Matthew McConaughey Anne Hathaway Jessica Chastain">
         </a>
         <a href="TheDarkKnight_movie_detail.html">
-            <img src="The Dark Knight.jpg" width="167" height="237" alt="The Dark Knight">
+            <img src="The Dark Knight.jpg" width="167" height="237" alt="The Dark Knight Christian Bale Heath Ledger Aaron Eckhart">
         </a>
         <a href="TheAvengers_movie_details.html">
-            <img src="The Avengers.jpg" width="167" height="237" alt="The Avengers">
+            <img src="The Avengers.jpg" width="167" height="237" alt="The Avengers Robert Downey Jr. Chris Evans Scarlett Johansson">
         </a>
         <a href="TheSocialNetwork_movie_details.html">
-            <img src="The Social Network.jpg" width="167" height="237" alt="TheSocialNetwork">
+            <img src="The Social Network.jpg" width="167" height="237" alt="The Social Network Jesse Eisenberg Andrew Garfield Justin Timberlake">
         </a>
         <a href="Mad_Max_Fury_Road.html">
-            <img src="Inception.jpg" width="167" height="237" alt="Inception">
+            <img src="Mad Max Fury Road.jpg" width="167" height="237" alt="Mad Max Tom Hardy Charlize Theron Nicholas Hoult">
         </a>
     </section>
     <section class="image-container">
@@ -84,7 +89,8 @@
         <img src="Avengers Infinity War.jpg" width="167" height="237" alt="Image 17">
         <img src="Harry Potter and the Deathly Hallows - Part 2.jpg" width="167" height="237" alt="Image 18">
     </section>
-    
+
+    <script src="movie_search.js"></script>
 </body>
 
 </html>
