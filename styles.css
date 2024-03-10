@@ -73,9 +73,13 @@ header div.select{
 }
 
 
-div.splash{
+div.splash {
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center contents horizontally */
+    align-items: center; /* Center contents vertically */
+    height: 100vh; /* Set height to full viewport height */
 }
 
 div.splash div.background img{
@@ -122,19 +126,20 @@ div.splash form{
     position: relative;
     display: grid;
     margin-top: 20px;
+    margin-left: 20%;
     grid-template-columns: 1fr max-content;
 }
 
 div.splash input{
-    padding: 15px 10px;
+    padding: 15px 120px;
     font-size: 1.2rem;
     width: 100%;
 }
 
 div.splash input ~ span{
     position: absolute;
-    left: 10px;
-    top: 19px;
+    left: 25px;
+    top: 22px;
     z-index: 3;
     color: #aaa;
     transition: all 0.15s ease;
@@ -322,4 +327,8 @@ input[type="time"] {
     margin-bottom: 10px; /* Adjust margin-bottom as needed */
     border: 1px solid hsl(0, 0%, 0%); /* Add border for better visibility */
     border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.myFormClass{
+    padding-right: 475px;
 }
