@@ -1,59 +1,68 @@
-*{
+/* Resetting default padding, margin, and box-sizing for all elements */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+/* Setting font family and colors for the entire body */
+body {
     font-family: 'Helvetica Neue,Helvetica,Arial,sans-serif';
     background-color: #000;
     color: #fff;
 }
 
-img{
+/* Ensuring images don't overflow their containers */
+img {
     max-width: 100%;
 }
 
+/* Styling for the header section */
 header {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: transparent;
 }
 
-header button{
+/* Styling for buttons within the header */
+header button {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* Styling for the search bar */
 .search-bar {
-    display: flex; 
+    display: flex;
     width: 50%;
     height: 4rem;
     padding-left: 20px;
     padding-top: 5px;
-    }
+}
 
+/* Styling for the input field within the search bar */
 .search-bar input[type="text"] {
-    margin-right: 10px; 
+    margin-right: 10px;
     width: 230%;
     padding-left: 20px;
     padding-top: 5%;
     font-size: 20px;
 }
 
+/* Styling for the select dropdown */
 .select {
-    display: flex; 
+    display: flex;
     padding-right: 20px;
 }
 
+/* Styling for options within the select dropdown */
 .select select {
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
+/* Styling for the logo */
 .logo {
-    text-decoration: none; 
+    text-decoration: none;
     display: flex;
     width: 35%;
     padding-left: 20px;
@@ -61,7 +70,8 @@ header button{
     color: red;
 }
 
-header a.button{
+/* Styling for buttons within the header */
+header a.button {
     display: inline-block;
     background-color: #e50914;
     color: #fff;
@@ -70,30 +80,32 @@ header a.button{
     border-radius: 3px;
 }
 
-
+/* Styling for the image container section */
 .image-container {
-    margin-top: 20px; 
-    display: flex; 
-    justify-content: space-between; 
-    flex-wrap: nowrap; 
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
+/* Styling for images within the image container */
 .image-container img {
     width: 167px;
     height: 237px;
 }
 
-
+/* Styling for the splash section */
 div.splash {
     position: relative;
     overflow: hidden;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
-div.splash div.background img{
+/* Styling for the background image within the splash section */
+div.splash div.background img {
     max-width: 100%;
     opacity: 0.6;
     position: relative;
@@ -102,7 +114,8 @@ div.splash div.background img{
     object-fit: cover;
 }
 
-div.splash div.content{
+/* Styling for the content within the splash section */
+div.splash div.content {
     max-width: 655px;
     position: absolute;
     inset: 0;
@@ -113,27 +126,31 @@ div.splash div.content{
     text-align: center;
 }
 
-
-div.splash h1, div.splash h2, div.splash h3{
+/* Styling for headings within the splash section */
+div.splash h1, div.splash h2, div.splash h3 {
     font-weight: normal;
 }
 
-div.splash h1{
+/* Styling for specific heading sizes within the splash section */
+div.splash h1 {
     font-size: 3.125rem;
     font-weight: bold;
 }
 
-div.splash h2{
+/* Styling for specific heading sizes within the splash section */
+div.splash h2 {
     font-size: 1.625rem;
     margin-top: 13px;
     margin-bottom: 29px;
 }
 
-div.splash h3{
+/* Styling for specific heading sizes within the splash section */
+div.splash h3 {
     font-size: 1.2rem;
 }
 
-div.splash form{
+/* Styling for forms within the splash section */
+div.splash form {
     position: relative;
     display: grid;
     margin-top: 20px;
@@ -141,14 +158,16 @@ div.splash form{
     grid-template-columns: 1fr max-content;
 }
 
-div.splash input{
+/* Styling for inputs within the splash section */
+div.splash input {
     padding: 15px 120px;
     font-size: 1.2rem;
     width: 100%;
     color: #000;
 }
 
-div.splash input ~ span{
+/* Styling for span elements adjacent to inputs within the splash section */
+div.splash input ~ span {
     position: absolute;
     left: 25px;
     top: 22px;
@@ -158,17 +177,20 @@ div.splash input ~ span{
     pointer-events: none;
 }
 
-div.splash input:focus{
+/* Styling for inputs in focus within the splash section */
+div.splash input:focus {
     padding-top: 19px;
     padding-bottom: 11px;
 }
 
-div.splash input:focus ~ span{
+/* Styling for span elements adjacent to inputs in focus within the splash section */
+div.splash input:focus ~ span {
     top: 4px;
     font-size: .8rem;
 }
 
-div.splash button{
+/* Styling for buttons within the splash section */
+div.splash button {
     font-size: 1.625rem;
     padding: 12px 26px;
     background-color: #e50914;
@@ -176,7 +198,8 @@ div.splash button{
     border: 0;
 }
 
-section{
+/* Styling for sections containing text and images */
+section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 46px;
@@ -184,35 +207,42 @@ section{
     align-items: center;
 }
 
-section div.texts h1{
+/* Styling for headings within text sections */
+section div.texts h1 {
     font-size: 3.125rem;
     margin-bottom: 8px;
 }
 
-section div.texts p{
+/* Styling for paragraphs within text sections */
+section div.texts p {
     font-size: 1.625rem;
 }
 
-.media{
+/* Styling for media elements within sections */
+.media {
     position: relative;
 }
 
-.media.s1 img{
+/* Styling for specific media elements within sections */
+.media.s1 img {
     width: 400px;
 }
 
-.media.s1 video{
+/* Styling for specific media elements within sections */
+.media.s1 video {
     width: 293px;
     position: absolute;
     top: 62px;
     left: 52px;
 }
 
-section:nth-child(even) div.texts{
+/* Styling for alternating text sections */
+section:nth-child(even) div.texts {
     order: 2;
 }
 
-section div.download{
+/* Styling for download sections */
+section div.download {
     border: 2px solid #666;
     border-radius: 15px;
     padding: 10px;
@@ -230,28 +260,34 @@ section div.download{
     grid-template-columns: max-content 1fr max-content;
 }
 
-section div.download img{
+/* Styling for images within download sections */
+section div.download img {
     height: 75px;
     width: auto;
 }
 
+/* Styling for movie details */
 .movie-details {
     text-align: center;
     margin: 30px;
 }
 
+/* Styling for movie trailers */
 #movie-trailer {
     margin: 20px;
 }
 
+/* Styling for movie titles */
 #movie-title {
     margin: 20px;
 }
 
+/* Styling for movie descriptions */
 #movie-description {
     margin: 20px;
 }
 
+/* Styling for watch buttons */
 .watch-button {
     background-color: red;
     color: black;
@@ -266,12 +302,12 @@ section div.download img{
     top: 45px;
 }
 
+/* Styling for watch buttons on hover */
 .watch-button:hover {
     background-color: darkred;
 }
 
-
-
+/* Additional styling for image containers */
 .image-container {
     display: flex;
     flex-wrap: wrap;
@@ -279,30 +315,35 @@ section div.download img{
     gap: 20px;
 }
 
+/* Additional styling for images within image containers */
 .image-container img {
-    width: 167px; 
+    width: 167px;
     height: 237px;
 }
 
+/* Media query for responsive design */
 @media screen and (max-width: 768px) {
+    /* Adjusting layout of image container for smaller screens */
     .image-container {
         flex-direction: column;
         align-items: center;
     }
 }
 
-
+/* Styling for containers */
 .container {
     position: absolute;
 }
 
+/* Styling for headings */
 h1 {
     position: relative;
     align-items: center;
 }
 
+/* Styling for forms */
 form {
-    width: 300px; 
+    width: 300px;
     margin-top: 20px;
     padding: 20px;
     background-color: hsl(0, 0%, 0%);
@@ -310,18 +351,20 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling for inputs and buttons within forms */
 input,
 button {
-    width: 100%; 
-    padding: 10px; 
-    margin-bottom: 10px; 
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
+/* Styling for buttons within forms */
 button {
     width: 100%;
-    padding: 10px 0; 
+    padding: 10px 0;
     background-color: hsl(0, 100%, 50%);
     color: hsl(0, 0%, 0%);
     border: none;
@@ -330,64 +373,61 @@ button {
     font-weight: bold;
 }
 
+/* Styling for specific input types within forms */
 input[type="text"],
 input[type="email"],
 input[type="date"],
 input[type="time"] {
-    width: 100%; 
-    padding: 10px; 
-    margin-bottom: 10px; 
-    border: 1px solid hsl(0, 0%, 0%); 
-    border-radius: 5px; 
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 5px;
 }
 
-.myFormClass{
+/* Additional styling for a specific class */
+.myFormClass {
     padding-right: 475px;
 }
 
-
+/* Styling for search results */
 .search-results {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 999;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: auto; 
+    overflow: auto;
 }
 
-
-
-.search-result {
-    flex: 0 0 auto; 
-    width: calc(33.33% - 20px); 
-    margin: 10px;
-}
-
-
-#searchResultsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
+/* Styling for individual search results */
 .search-result {
     flex: 0 0 auto;
     width: calc(33.33% - 20px);
     margin: 10px;
 }
 
+/* Styling for the search results container */
+#searchResultsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/* Styling for the footer section */
 footer {
     background-color: #333;
     color: #fff;
     padding: 40px 0;
 }
 
+/* Styling for the footer content */
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -397,55 +437,67 @@ footer {
     padding: 0 20px;
 }
 
+/* Styling for sections within the footer */
 .footer-section {
     flex: 1;
     margin-right: 20px;
 }
 
+/* Styling for headings within footer sections */
 .footer-section h3 {
     margin-bottom: 15px;
 }
 
+/* Styling for unordered lists within footer sections */
 .footer-section ul {
     list-style-type: none;
     padding: 0;
 }
 
+/* Styling for list items within footer sections */
 .footer-section ul li {
     margin-bottom: 10px;
 }
 
+/* Styling for links within list items in footer sections */
 .footer-section ul li a {
     color: #fff;
     text-decoration: none;
 }
 
+/* Styling for the bottom section of the footer */
 .footer-bottom {
     background-color: #222;
     padding: 20px 0;
     text-align: center;
 }
 
+/* Styling for paragraphs within the bottom section of the footer */
 .footer-bottom p {
     margin: 0;
 }
 
+/* Styling for links within paragraphs in the bottom section of the footer */
 .footer-bottom p a {
     color: #fff;
     text-decoration: none;
 }
 
+/* Media query for responsive design of footer */
 @media screen and (max-width: 768px) {
+    /* Adjusting layout of footer content for smaller screens */
     .footer-content {
         flex-direction: column;
         align-items: center;
     }
 
+    /* Adjusting layout of individual footer sections for smaller screens */
     .footer-section {
         margin: 0 0 20px 0;
         text-align: center;
     }
 
+    /* Removing right margin from last footer section for smaller screens */
     .footer-section:last-child {
         margin-right: 0;
     }
